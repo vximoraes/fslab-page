@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: var(--primary-font);
+}
+
+
+.inter-default {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 512px;
+    background: linear-gradient(rgba(60, 60, 59, 0.6), rgba(60, 60, 59, 0.6)), url(../images/headerBackground.png) no-repeat center/cover;
+}
+
+header img {
+    width: 291px;
+}
+
+nav {
+    color: #F1F1F1;
+    background-color: #3C3C3B;
+    align-content: center;
+    height: 82px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    padding-left: 20px;
+}
+
+main .projetos,
+main .faq,
+main .faleConosco {
+    padding: 40px;
+    background-color: #EEECEC;
+}
+
+main .quemSomos,
+main .equipe {
+    padding: 40px;
+    background-color: #F3F3F3;
+}
+
+main .projetos p,
+main .quemSomos p:nth-child(1),
+main .faq p,
+main .equipe p:nth-child(1),
+main .faleConosco p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    padding-top: 23px;
+}
+
+.dash {
+    width: 31px;
+    border: 1px solid black;
+}
+
+main .quemSomos .content {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+main .quemSomos img {
+    width: 591px;
+    height: 346px;
+}
+
+main .faq ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-top: 36px;
+}
+
+main .faq li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #D9D9D9;
+}
+
+main .faq li img {
+    width: 25px;
+    height: 40px;
+    cursor: pointer;
+}
+
+main .equipe .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+main .equipe .card div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 425px;
+    background-color: #EEECEC;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+main .equipe ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+}
+
+main .equipe li img {
+    width: 90px;
+    height: 110px;
+}
+
+main .equipe img {
+    width: 128px;
+    height: 128px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    background-color: #575756;
+}
+
+footer img:nth-child(1) {
+    width: 277px;
+    height: 72px;
+}
+
+footer img:nth-child(2) {
+    width: 153px;
+    height: 74px;
+}
